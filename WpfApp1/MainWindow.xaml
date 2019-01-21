@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Margin="337,77,331,301" Click="ButtonBase_OnClick">Button</Button>
+        <Label   Margin="175,123,117,269">Todo</Label>
+        <Label Name="id" Margin="175,155,117,225">Todo id</Label>
+        <Label Name="title" Margin="175,199,117,173">Todo title</Label>
+        <Label Name="completed" Margin="175,260,117,107">Todo completed</Label>
     </Grid>
 </Window>
